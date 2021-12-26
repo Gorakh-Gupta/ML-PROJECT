@@ -1,0 +1,43 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define vll vector<ll,ll>
+const ll MOD=1e9+7;
+#define pk pop_back
+#define pb push_back
+const ll N=200005;
+const int dx[]={0,-1,1,0};
+const int dy[]={1,0,0,-1};
+const ll mod =1e6+3;
+#define lb lower_bound
+
+int main(){
+
+ ios_base::sync_with_stdio(false); 
+ cin.tie(NULL);
+ cout.tie(NULL);
+
+ 
+ ll t,h,n,k,i,j,l,x,r,w,tt,p,d,m,z,y;
+  cin>>t;
+  while(t--){
+  	cin>>n;
+  	vector<ll>a(n);
+  	for(i=0;i<n;i++){
+  		cin>>a[i];
+	  }
+    d=0;
+	  h=1;
+	  
+	  for(i=0;i<n;i++){
+	  	while(a[i]%2==0){
+	  		a[i]/=2;
+	  		h*=2;
+		  }
+	  }
+    sort(a.begin(),a.end());
+	  a[n-1]*=h;
+	  for(i=0;i<n;i++)d+=a[i];
+	  cout<<d<<endl;
+}}
+
