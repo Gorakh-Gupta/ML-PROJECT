@@ -30,4 +30,4 @@
 
 we will use RandomForestClassifier 
 
-In predicted output 1 represents the quality greater than 0.7 which is  good quality wine and 0 represents the quality below 0.7 which is not a good quality wine. 
+In predicted output 1 represents the quality >= 0.7 which is  good quality wine and 0 represents the quality < 0.7 which is not a good quality wine. 
