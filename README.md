@@ -1,4 +1,4 @@
-# ML-PROJECT
+# Wine Quality Prediction
 
 #We will predict the quality of wine on the basis of following features.
 
